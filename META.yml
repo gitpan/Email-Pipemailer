@@ -1,0 +1,9 @@
+---
+abstract: a thing that delivers mail received on STDIN (placeholder)
+author:
+- Ricardo Signes <rjbs@cpan.org>
+generated_by: Dist::Zilla::Plugin::MetaYaml version 1.007
+license: perl
+name: Email-Pipemailer
+requires: {}
+version: '1.000'

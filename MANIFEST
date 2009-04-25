@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST
+META.yml
+Makefile.PL
+README
+dist.ini
+lib/Email/Pipemailer.pm
+lib/Email/Pipemailer/DieHandler.pm
+t/compile.t
