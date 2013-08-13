@@ -1,8 +1,9 @@
 use strict;
 use warnings;
 package Email::Pipemailer;
-our $VERSION = '1.000';
-
+{
+  $Email::Pipemailer::VERSION = '1.001';
+}
 # ABSTRACT: a thing that delivers mail received on STDIN (placeholder)
 
 
@@ -18,7 +19,7 @@ Email::Pipemailer - a thing that delivers mail received on STDIN (placeholder)
 
 =head1 VERSION
 
-version 1.000
+version 1.001
 
 =head1 DESCRIPTION
 
@@ -27,15 +28,13 @@ a useful namespace for L<Email::Pipemailer::DieHandler>.
 
 =head1 AUTHOR
 
-  Ricardo Signes <rjbs@cpan.org>
+Ricardo Signes <rjbs@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2009 by Ricardo Signes.
+This software is copyright (c) 2013 by Ricardo Signes.
 
 This is free software; you can redistribute it and/or modify it under
-the same terms as perl itself.
+the same terms as the Perl 5 programming language system itself.
 
-=cut 
-
-
+=cut
